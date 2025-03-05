@@ -8,6 +8,7 @@ int main(){
     float Area, PIB;
     
     //Primeira Carta
+    
     printf ("Digite o estado: \n");
     scanf (" %c", &Estado);
 
@@ -21,7 +22,7 @@ int main(){
     scanf ("%d", &Populacao);
 
     printf ("Digite a Área (em km²): \n");
-    scanf (" %f", Area);
+    scanf (" %f", &Area);
 
     printf ("Digite o PIB: \n");
     scanf ("%f", &PIB);
@@ -55,9 +56,10 @@ int main(){
 
     printf ("Digite a quantidade de Pontos turísticos: \n");
     scanf ("%d", &Pontosturisticos2);
+    
 // Exibir resultados
 
-    printf("\n Primeira Carta\n");
+    printf("\nCarta 1:\n");
     printf ("Estado: %c\n", Estado);
     printf ("Código da cidade: %s\n", Codigo);
     printf ("Nome da cidade: %s\n", Nome);
@@ -66,7 +68,7 @@ int main(){
     printf ("PIB: %.2f\n", PIB);
     printf ("Quant. de Pontos Turísticos: %d\n", Pontosturisticos);
 
-    printf("\n Segunda Carta\n");
+    printf("\nCarta 2:\n");
     printf ("Estado: %c\n", Estado2);
     printf ("Código da cidade: %s\n", Codigo2);
     printf ("Nome da cidade: %s\n", Nome2);
